@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		136CD1A1240FCEFC008E072B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136CD1A0240FCEFC008E072B /* AppDelegate.swift */; };
-		136CD1A3240FCEFC008E072B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136CD1A2240FCEFC008E072B /* SceneDelegate.swift */; };
 		136CD1A5240FCEFC008E072B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136CD1A4240FCEFC008E072B /* ViewController.swift */; };
 		136CD1A8240FCEFC008E072B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136CD1A6240FCEFC008E072B /* Main.storyboard */; };
 		136CD1AA240FCEFD008E072B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136CD1A9240FCEFD008E072B /* Assets.xcassets */; };
 		136CD1AD240FCEFD008E072B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136CD1AB240FCEFD008E072B /* LaunchScreen.storyboard */; };
+		136CD1BD240FD109008E072B /* NumberKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136CD1BB240FD109008E072B /* NumberKeyboardView.swift */; };
+		136CD1BE240FD109008E072B /* NumberKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136CD1BC240FD109008E072B /* NumberKeyboardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		136CD19D240FCEFC008E072B /* NumberKeyboardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberKeyboardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136CD1A0240FCEFC008E072B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		136CD1A2240FCEFC008E072B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		136CD1A4240FCEFC008E072B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		136CD1A7240FCEFC008E072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		136CD1A9240FCEFD008E072B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136CD1AC240FCEFD008E072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136CD1AE240FCEFD008E072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136CD1BB240FD109008E072B /* NumberKeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberKeyboardView.swift; sourceTree = "<group>"; };
+		136CD1BC240FD109008E072B /* NumberKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberKeyboardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,8 @@
 		136CD19F240FCEFC008E072B /* NumberKeyboardView */ = {
 			isa = PBXGroup;
 			children = (
+				136CD1B6240FD0DA008E072B /* Keyboard */,
 				136CD1A0240FCEFC008E072B /* AppDelegate.swift */,
-				136CD1A2240FCEFC008E072B /* SceneDelegate.swift */,
 				136CD1A4240FCEFC008E072B /* ViewController.swift */,
 				136CD1A6240FCEFC008E072B /* Main.storyboard */,
 				136CD1A9240FCEFD008E072B /* Assets.xcassets */,
@@ -65,6 +67,15 @@
 				136CD1AE240FCEFD008E072B /* Info.plist */,
 			);
 			path = NumberKeyboardView;
+			sourceTree = "<group>";
+		};
+		136CD1B6240FD0DA008E072B /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				136CD1BB240FD109008E072B /* NumberKeyboardView.swift */,
+				136CD1BC240FD109008E072B /* NumberKeyboardView.xib */,
+			);
+			path = Keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136CD1BE240FD109008E072B /* NumberKeyboardView.xib in Resources */,
 				136CD1AD240FCEFD008E072B /* LaunchScreen.storyboard in Resources */,
 				136CD1AA240FCEFD008E072B /* Assets.xcassets in Resources */,
 				136CD1A8240FCEFC008E072B /* Main.storyboard in Resources */,
@@ -139,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				136CD1A5240FCEFC008E072B /* ViewController.swift in Sources */,
+				136CD1BD240FD109008E072B /* NumberKeyboardView.swift in Sources */,
 				136CD1A1240FCEFC008E072B /* AppDelegate.swift in Sources */,
-				136CD1A3240FCEFC008E072B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
